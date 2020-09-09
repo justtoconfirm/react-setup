@@ -14,10 +14,10 @@ const Button = (props) => {
         onClick
     } = props
 
-    const buttonClass = classNames('btn', className, {
-        'btn--primary' : theme === 'primary',
-        'btn--secondary' : theme === 'secondary',
-        'btn--full-width' : isFullWidth
+    const buttonClass = classNames('a-btn', className, {
+        'a-btn--primary' : theme === 'primary',
+        'a-btn--secondary' : theme === 'secondary',
+        'a-btn--full-width' : isFullWidth
     })
 
     const isAnchor = url && (url.includes('http') || url.startsWith('#') || url.startsWith('mailto') || url.startsWith('/'))

@@ -4,7 +4,7 @@ import Button from './Button/Button'
 
 const App = () => {
 	return (
-		<Button />
+		<Button>Test</Button>
 	)
 }
 
