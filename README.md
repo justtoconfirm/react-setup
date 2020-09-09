@@ -1,5 +1,7 @@
 # React setup
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ## Install
 ```
 $ git clone https://github.com/justtoconfirm/react-setup.git
