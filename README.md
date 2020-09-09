@@ -19,6 +19,15 @@ $ npm run build
 $ npm run build:dev
 ```
 
+## Lint
+```
+# Lint JavaScript code in src directory to check for syntax errors
+$ npm run lint
+
+# Fix errors using Standard
+$ npm run lint:fix
+```
+
 ## Webpack Bundle Analyzer
 ```
 # Run the production build to generate the stats.json file
