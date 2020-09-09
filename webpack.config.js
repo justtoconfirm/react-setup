@@ -1,5 +1,6 @@
 const env = process.env.NODE_ENV
 const path = require('path')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
@@ -78,6 +79,13 @@ module.exports = {
         ]
     },
     plugins: [
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'disabled',
+            generateStatsFile: env === 'production',
+            statsOptions: {
+                source: false
+            }
+        }),
         new MiniCssExtractPlugin({
             // Set filename of stylesheet if production or development mode is used
             filename: env === 'production' ? 'style/min/[name].min.css' : 'style/[name].css' 
