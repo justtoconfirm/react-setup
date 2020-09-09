@@ -1,7 +1,14 @@
 import React from 'react'
 import { render } from 'react-dom'
+import Button from './Button/Button'
+
+const App = () => {
+	return (
+		<Button />
+	)
+}
 
 render(
-    <h1>Hello World</h1>,
+    <App />,
     document.getElementById('root')
 )
