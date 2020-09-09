@@ -28,6 +28,11 @@ $ npm run lint
 $ npm run lint:fix
 ```
 
+## Storybook
+```
+$ npm run storybook
+```
+
 ## Webpack Bundle Analyzer
 ```
 # Run the production build to generate the stats.json file
