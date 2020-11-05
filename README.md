@@ -28,6 +28,11 @@ $ npm run lint
 $ npm run lint:fix
 ```
 
+## Test
+```
+$ npm run test
+```
+
 ## Storybook
 ```
 $ npm run storybook
