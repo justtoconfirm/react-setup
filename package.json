@@ -13,7 +13,8 @@
     "analyzer": "webpack-bundle-analyzer --port 4200 dist/stats.json"
   },
   "standard": {
-    "ignore": "**/dist/"
+    "ignore": "**/dist/",
+    "env": [ "jest" ]
   },
   "jest": {
     "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"]
