@@ -20,9 +20,16 @@ $ npm run build:dev
 ```
 
 ## Run
+
+This command will run the webpack-dev-server on port 8080. If an incorrect URL is entered, an Error (404) page will be displayed.
+
 ```
 $ npm run start
 ```
+
++ Homepage: http://localhost:8080/
++ About: http://localhost:8080/about
++ Contact: http://localhost:8080/contact
 
 ## Lint
 ```
