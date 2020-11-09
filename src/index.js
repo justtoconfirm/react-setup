@@ -24,7 +24,7 @@ const App = () => {
 
 render(
 	<BrowserRouter>
-  	<App />
-  </BrowserRouter>,
-  document.getElementById('root')
+		<App />
+	</BrowserRouter>,
+	document.getElementById('root')
 )
