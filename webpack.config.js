@@ -25,6 +25,9 @@ module.exports = {
     }
   },
   devtool: 'source-map',
+  devServer: {
+    historyApiFallback: true
+  },
   performance: {
     hints: 'warning'
   },
