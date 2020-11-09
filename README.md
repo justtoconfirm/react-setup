@@ -19,6 +19,11 @@ $ npm run build
 $ npm run build:dev
 ```
 
+## Run
+```
+$ npm run start
+```
+
 ## Lint
 ```
 # Lint JavaScript code in src directory to check for syntax errors
