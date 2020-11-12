@@ -9,7 +9,7 @@ import './scss/main.scss'
 
 const App = () => {
   return (
-    <main>
+    <main role="main">
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/about' component={About} />
