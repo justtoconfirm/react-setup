@@ -13,7 +13,7 @@ const App = () => {
     <>
       <Navigation />
 
-      <main role="main">
+      <main role='main'>
         <Switch>
           <Route path='/' component={Home} exact />
           <Route path='/about' component={About} />
