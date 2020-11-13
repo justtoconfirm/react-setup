@@ -5,6 +5,7 @@ import Navigation from './components/molecules/Navigation/Navigation'
 import Home from './components/templates/Home'
 import About from './components/templates/About'
 import Contact from './components/templates/Contact'
+import Error from './components/templates/Error'
 
 import './scss/main.scss'
 
